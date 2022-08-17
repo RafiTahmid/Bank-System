@@ -17,7 +17,7 @@
 
     <main>
       <section class="mt-12">
-        <div class="grid grid-cols-3 gap-4 w-9/12 mx-auto text-white">
+        <div class="grid grid-cols-3 gap-8 w-9/12 mx-auto text-white">
           <div class="bg-green-500 p-8 rounded-xl">
             <h4 class="text-3xl">Deposit</h4>
             <h2 class="text-6xl">$00</h2>
@@ -26,9 +26,48 @@
             <h4 class="text-3xl">Withdraw</h4>
             <h2 class="text-6xl">$00</h2>
           </div>
-          <div class="bg-violet-500 p-8 rounded-xl">
+          <div class="bg-violet-500 p-5 rounded-xl">
             <h4 class="text-3xl">Balance</h4>
             <h2 class="text-6xl">$1240</h2>
+          </div>
+        </div>
+      </section>
+
+      <!-- Deposit & Withdraw -->
+
+      <section class="mt-12">
+        <div class="grid grid-cols-2 gap-8 w-9/12 mx-auto text-white">
+          <div class="bg-indigo-400 p-8 rounded-xl">
+            <h4 class="text-3xl mb-4">Please Deposit</h4>
+            <input
+              class="w-9/12 block mb-2 px-3"
+              type="email"
+              name=""
+              id="deposit-field"
+              placeholder="$ Enter your deposit amount"
+            />
+            <button
+              id="btn-deposit"
+              class="bg-amber-600 px-8 py-2 text-white font-medium rounded-lg hover:bg-sky-700"
+            >
+              Deposit
+            </button>
+          </div>
+          <div class="bg-fuchsia-300 p-8 rounded-xl">
+            <h4 class="text-3xl mb-4">Please Withdraw</h4>
+            <input
+              class="w-9/12 block mb-2 px-3"
+              type="email"
+              name=""
+              id="withdraw-field"
+              placeholder="$ Enter amount you want to withdraw"
+            />
+            <button
+              id="btn-deposit"
+              class="bg-amber-600 px-8 py-2 text-white font-medium rounded-lg hover:bg-sky-700"
+            >
+              Withdraw
+            </button>
           </div>
         </div>
       </section>
